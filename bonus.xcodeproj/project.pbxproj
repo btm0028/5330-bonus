@@ -13,6 +13,8 @@
 		FC75D8E229A718520035A917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC75D8E029A718520035A917 /* Main.storyboard */; };
 		FC75D8E429A718530035A917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC75D8E329A718530035A917 /* Assets.xcassets */; };
 		FC75D8E729A718530035A917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC75D8E529A718530035A917 /* LaunchScreen.storyboard */; };
+		FC75D8EF29A73FDD0035A917 /* Amendment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75D8EE29A73FDD0035A917 /* Amendment.swift */; };
+		FC75D8F129A748C40035A917 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75D8F029A748C40035A917 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FC75D8E329A718530035A917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC75D8E629A718530035A917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC75D8E829A718530035A917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC75D8EE29A73FDD0035A917 /* Amendment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amendment.swift; sourceTree = "<group>"; };
+		FC75D8F029A748C40035A917 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,31 @@
 			children = (
 				FC75D8DA29A718520035A917 /* AppDelegate.swift */,
 				FC75D8DC29A718520035A917 /* SceneDelegate.swift */,
-				FC75D8DE29A718520035A917 /* ViewController.swift */,
+				FC75D8F229A750220035A917 /* View */,
+				FC75D8F329A7502E0035A917 /* Model */,
 				FC75D8E029A718520035A917 /* Main.storyboard */,
 				FC75D8E329A718530035A917 /* Assets.xcassets */,
 				FC75D8E529A718530035A917 /* LaunchScreen.storyboard */,
 				FC75D8E829A718530035A917 /* Info.plist */,
 			);
 			path = bonus;
+			sourceTree = "<group>";
+		};
+		FC75D8F229A750220035A917 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC75D8DE29A718520035A917 /* ViewController.swift */,
+				FC75D8F029A748C40035A917 /* SecondViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC75D8F329A7502E0035A917 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC75D8EE29A73FDD0035A917 /* Amendment.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				FC75D8DF29A718520035A917 /* ViewController.swift in Sources */,
 				FC75D8DB29A718520035A917 /* AppDelegate.swift in Sources */,
 				FC75D8DD29A718520035A917 /* SceneDelegate.swift in Sources */,
+				FC75D8F129A748C40035A917 /* SecondViewController.swift in Sources */,
+				FC75D8EF29A73FDD0035A917 /* Amendment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
